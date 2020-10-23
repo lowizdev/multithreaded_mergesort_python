@@ -3,6 +3,7 @@ import threading
 
 test_arr = [5, 1, 9, 2, 8, 6, 10, 4]
 
+#AN "STANDARD" IMPLEMENTATION OF MERGESORT FOR ARRAYS (LISTS)
 def mergesort(arr):
 
     len_arr = len(arr)
@@ -94,5 +95,10 @@ def exec():
 
     print(final_res)
 
+
+start_time = time.time()
 exec()
+end_time = time.time()
+
+print(end_time - start_time)
 
